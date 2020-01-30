@@ -1,0 +1,252 @@
+## Ignore os arquivos temporários do Visual Studio, crie resultados e
+## arquivos gerados por complementos populares do Visual Studio.
+
+# Arquivos específicos do usuário
+* .suo
+*.do utilizador
+* .sln.docstates
+
+# Construir resultados
+[Dd] ebug /
+[Dd] ebugPublic /
+[Rr] elease /
+[Rr] eleases /
+x64 /
+x86 /
+bld /
+[Bb] em /
+[Oo] bj /
+Construir/
+
+Diretórios de cache do # Roslyn
+* .ide /
+.vs /
+
+Resultados do teste # MSTest
+[Tt] est [Rr] esult * /
+[Bb] uild [Ll] og. *
+
+# NUnit
+* .VisualState.xml
+TestResult.xml
+nunit - *. xml
+
+# Construir resultados de um projeto ATL
+[Dd] ebugPS /
+[Rr] eleasePS /
+dlldata.c
+
+* _i.c
+* _p.c
+* _i.h
+* .ilk
+* .meta
+* .obj
+* .pch
+* .pdb
+* .pgc
+* .pgd
+* .rsp
+* .sbr
+* .tlb
+* .tli
+* .tlh
+* .tmp
+* .tmp_proj
+*.registro
+* .vspscc
+* .vssscc
+.builds
+* .pidb
+* .svclog
+* .scc
+
+# Arquivos de teste Chutzpah
+_Chutzpah *
+
+# Arquivos de cache do Visual C ++
+ipch /
+* .aps
+* .ncb
+* .opensdf
+* .sdf
+* .cachefile
+
+# Visual Studio Profiler
+* .psess
+* .vsp
+* .vspx
+
+# Área de trabalho local do TFS 2012
+$ tf /
+
+# Kit de ferramentas de automação de orientação
+* .gpState
+
+# ReSharper é um suplemento de codificação .NET
+_ReSharper * /
+*. [Rr] e [Ss] harper
+* .DotSettings.user
+
+# JustCode é um suplemento de codificação .NET
+.JustCode
+
+# TeamCity é um complemento de compilação
+_TeamCity *
+
+# DotCover é uma ferramenta de cobertura de código
+* .dotCover
+
+# NCrunch
+_NCrunch_ *
+. * crunch * .local.xml
+
+# MightyMoose
+*.milímetros.*
+AutoTest.Net/
+
+# Ambiente de trabalho na Web (sass)
+.sass-cache /
+
+# Pasta de saída Installshield
+[Ee] xpress /
+
+# DocProject é um suplemento de gerador de documentação
+DocProject / buildhelp /
+DocProject / Ajuda / *. HxT
+DocProject / Ajuda / *. HxC
+DocProject / Help / *. Hhc
+DocProject / Help / *. Hhk
+DocProject / Help / *. Hhp
+DocProject / Ajuda / Html2
+DocProject / Ajuda / html
+
+# Diretório Click-Once
+publicar/
+
+# Publicar saída da Web
+*. [Pp] ublish.xml
+* .azurePubxml
+# TODO: comente a próxima linha se desejar verificar suas configurações de implantação na web 
+# mas as cadeias de conexão do banco de dados (com senhas em potencial) não serão criptografadas
+* .pubxml
+* .publishproj
+
+# Pacotes NuGet
+* .nupkg
+# A pasta packages pode ser ignorada devido à restauração do pacote
+** / pacotes / *
+# exceto build /, que é usado como um destino MSBuild.
+! ** / pacotes / compilação /
+# Se estiver usando a antiga Restauração de pacote integrada do MSBuild, remova o comentário:
+#! ** / packages / repositories.config
+Packages.dgml
+
+# Saída de compilação do Windows Azure
+csx /
+* .build.csdef
+
+# Diretório de pacotes de aplicativos da Windows Store
+AppPackages /
+
+# Outras
+sql /
+* .Cache
+ClientBin /
+[Ss] tyle [Cc] op. *
+~ $ *
+* ~
+* .dbmdl
+* .dbproj.schemaview
+* .pfx
+* .publishsettings
+node_modules /
+
+# Projetos RIA / Silverlight
+Generated_Code /
+
+# Faça backup e relate arquivos da conversão de um arquivo de projeto antigo
+# para uma versão mais recente do Visual Studio. Arquivos de backup não são necessários,
+# porque temos git ;-)
+_UpgradeReport_Files /
+Cópia de segurança*/
+UpgradeLog * .XML
+UpgradeLog * .htm
+
+# Arquivos do SQL Server
+* .mdf
+* .ldf
+
+# Projetos de Business Intelligence
+* .rdl.data
+* .bim.layout
+* .bim _ *. configurações
+
+# Microsoft Fakes
+FakesAssemblies /
+
+# =========================
+# Arquivos do sistema operacional
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ícone deve terminar com dois \ r
+Ícone
+
+
+# Miniaturas
+._ *
+
+# Arquivos que podem aparecer no disco externo
+.Spotlight-V100
+.Trashes
+
+# Diretórios potencialmente criados no compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta Lixo de Rede
+Itens temporários
+.apdisk
+
+# Janelas
+# =========================
+
+# Caches de arquivos de imagem do Windows
+Thumbs.db
+ehthumbs.db
+
+# Arquivo de configuração de pasta
+Desktop.ini
+
+# Lixeira usada em compartilhamentos de arquivos
+$ RECYCLE.BIN /
+
+# Arquivos do Windows Installer
+*.táxi
+* .msi
+* .msm
+* .msp
+
+Saída #OpenCover
+cobertura.xml
+
+#Msbuild saída de log binário
+output.binlog
+
+# KDiff3
+*_CÓPIA DE SEGURANÇA_*
+*_BASE_*
+*_LOCAL_*
+*_CONTROLO REMOTO_*
+* .orig
+
+AkavacheSqliteLinkerOverride.cs
+NuGetBuild
+WiX.Toolset.DummyFile.txt
+GitHubVS.sln.DotSettingsd
